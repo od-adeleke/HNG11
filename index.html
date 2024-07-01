@@ -15,8 +15,8 @@
         <p data-testid="slackDisplayName">Slack Name: blac.toon</p>
         <p data-testid="slackEmail">Slack Email: daaviid.adeleke@gmail.com</p>
         <div>
-            <p data-testid="currentDay">Current Day: <strong>Monday</strong></p>
-            <p data-testid="currentTimeUTC">Current Time in UTC: <strong>14:53 UTC</strong></p>
+            <p data-testid="currentTimeUTC">Current Time in UTC: <script>document.write(new Date().toUTCString());</script></p>
+            <p data-testid="currentDay">Current Day: <script>document.write(new Date().toLocaleDateString('en-US', { weekday: 'long' }));</script></p>
         </div>
         <img src="./profile-pic.jpeg" alt="Slack Profile Picture" />
       </div>
