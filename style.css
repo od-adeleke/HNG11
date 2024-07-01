@@ -71,6 +71,13 @@ div[data-testid="slackProfile"] {
     margin-bottom: 2rem;
 }
 
+div[data-testid="slackProfile"] img {
+    width: auto;
+    height: auto;
+    max-width: 100px;
+    max-height: 100px;
+}
+
 /* Responsive Styles */
 @media (min-width: 600px) {
     main {
